@@ -25,6 +25,12 @@ namespace MFTrackerApi.Controllers
             return "value";
         }
 
+        [HttpGet("{id}", Name = "GetStockDetails")]
+        public string GetStockDetails(int id)
+        {
+            return "value";
+        }
+
         //// POST: api/MFTracker
         //[HttpPost]
         //public void Post([FromBody] string value)
